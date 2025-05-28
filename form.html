@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>📝CUSTOMER FEEDBACK SURVEY</h1>
+        <p>We value your opinion!please take a moment to fill this out</p>
+        <hr>
+        <fieldset>
+            <legand><strong>Personal information</strong></legand><br><br>
+            <lable for="fullname">FullName:</lable><br>
+            <input type="text" id="FullName" name="FullName"><br><br>
+            <lable for ="email" >Email address:</lable><br><br>
+            <lable for=""age>Age:</lable><br>
+            <input type="number" id="age" name="age"><br>
+        </fieldset>
+        <fieldset>
+             <legand><strong>Survey questions</strong></legand>
+             <lable for="Satisfaction">How satisfied are you with our service?</lable><br>
+             <select id="satisfaction" name="satisfaction">
+                <option value="">Select</option>
+                <option value="Very satisfied"> Very satisfied</option>
+                <option value="satisfied"> satisfied</option>
+                <option value="neutral"> Neutral</option>
+                <option value="dissatisfied"> Dissatisfied</option>
+                <option value="very dissatisfied"> Very Dissatisfied</option>
+             </select><br><br>
+             <lable >Would you recommend us to others?</lable><br>
+             <input type="radio" id="recommend-yes" name="recommend" value="yes">
+            <label for="recommend-yes">Yes</label><br>
+            <input type="radio" id="recommend-no" name="recommend" value="no">
+            <label for="recommend-no">No</label><br><br>
+
+            <label>Which services have you used? (Check all that apply)</label><br>
+            <input type="checkbox" id="service1" name="services" value="Customer Support">
+            <label for="service1">Customer Support</label><br>
+            <input type="checkbox" id="service2" name="services" value="Product Delivery">
+            <label for="service2">Product Delivery</label><br>
+            <input type="checkbox" id="service3" name="services" value="Returns & Refunds">
+            <label for="service3">Returns & Refunds</label><br>
+        </fieldset>
+        <fieldset>
+    <legend><strong>Additional Comments</strong></legend>
+    <label for="comments">Your feedback:</label><br>
+    <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+  </fieldset>
+
+  <br>
+  <button type="submit">Submit</button>
+</body>
+</html>
