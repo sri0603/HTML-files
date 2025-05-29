@@ -1,0 +1,51 @@
+div{
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+    text-align: center;
+    image-orientation: from-image;
+    border-style: ridge;
+    padding: 8px;
+    margin: 20px;
+    font-size: 7px;
+    border-color: rgb(214, 176, 82);
+    
+}
+p{
+    text-align: left;
+}
+.pic{
+    text-align: center;
+}
+.one1{
+    border-color: rgb(0, 0, 0);
+    border-style: ridge;
+    padding: 8px;
+    margin: 20px;
+    background-color: rgb(214, 176, 82);
+    font-size: medium;
+
+
+}
+body{
+    justify-items: center;
+}
+#one{
+    background-color: rgb(55, 113, 188);
+    color: rgb(231, 237, 243);
+    font-size: medium;
+    padding: 20px;
+}
+#three{
+    text-align: center;
+    font-size: medium;
+    padding: 2px;
+    margin: 0.5px;
+}
+#four{
+    background-color: rgb(55, 113, 188);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: aliceblue;
+    font-size: medium;
+    
+}
